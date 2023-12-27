@@ -1,0 +1,65 @@
+/* Menu.css */
+
+#menu {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notre-menu {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: Lemon, serif;
+}
+
+.line {
+    width: 50%;
+    border: 1px solid #D42222;
+    margin: 0 auto 1rem;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+    writing-mode: bt-rl;
+}
+
+li {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed, considering margins */
+    margin: 10px;
+}
+
+.menu-item {
+    border: 0; /* Border for the invisible box */
+    padding: 10px; /* Padding inside the box */
+    text-align: left;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+#item-name {
+    margin-top: 0.5rem;
+    font-family: Lemon, serif;
+    color: #4caf50;
+    margin-left: 0;
+
+}
+
+#item-price{
+    margin: 0;
+    font-family: Lemon, serif;
+    color: #D42222;
+}

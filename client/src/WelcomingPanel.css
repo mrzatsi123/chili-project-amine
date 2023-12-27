@@ -1,0 +1,66 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+
+}
+
+#mainContainer {
+    background-image: url("../public/imgSrc/design.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    background-attachment: fixed;
+    overflow: hidden; /* Ensure the background image doesn't overflow */
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+
+}
+
+
+#restaurantName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#frontDescription {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: #6ee22a;
+    font-family: Lemon, serif;
+    text-align: left;
+}
+#textContent {
+    margin-left: 500px;
+
+}
+#seeMoreButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#seeMoreButton:hover {
+    background-color: #45a049;
+}

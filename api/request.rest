@@ -1,0 +1,15 @@
+GET http://localhost:2099/chili
+
+###
+
+POST http://localhost:2099/chili/upload
+Content-Type: application/json
+
+{
+  "title" : "goat",
+  "price" : 36.5,
+  "image" : "/imgSrc/fajitas.jpg"
+}
+
+###
+DELETE http://localhost:2099/chili/delete/658b556da7881326309eb5d4
